@@ -34,7 +34,7 @@ A proxima etapa, seria fazer o push do nosso codigo, mas como é primeira vez qu
 
     git add . (O espaço depois do ponto, indica para add tudo que esta no diretorio, ou seja, na só a ultima alteração)
 
-    git commit "detAlhes da alteração"
+    git commit -m "detAlhes da alteração"
 
     git push origin main
 
