@@ -80,6 +80,7 @@ Um git clone, significa clonar um projeto para a sua maquina, muito simples.
 -primeiro copiamos o codigo no github do projeto
 -agora criamos um diretorio na nossa maquina, onde o projeto vai ficar salvo
 -abrimos o gitbash dentro deste diretorio e colocamos o seguinte codigo:
+
     git clone https://github.com/DavidRobersonN/fusion.git
 
 GIT PULL
