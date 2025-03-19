@@ -89,6 +89,16 @@ muito simples, basta digitar o seguinte codigo no gitbash:
 
     git pull
 
+GIT FETCH
+esta comando, atualizara as referencias locais das branches REMOTAS
+    git fetch origin
+O Prox passo é criar a branch baseada na versao remota
+    git checkout -b testes origin/testes
+Caso já tenha uma branch local com esse nome, e queira apenas sincronizá-lá
+    git checkout testes
+    git reset --hard origin/testes
+Entao, para atualizarmos o nosso codigo, com o codigo da nova branch remoto, basta utilizar  "git pull"
+
 FORK
 Realizar um fork significa adicionar o projeto de outro perfil no github, e adicionar ao seu perfil, basta ir no projeto que deseja adicionar, e clicar na opção FORK
 
